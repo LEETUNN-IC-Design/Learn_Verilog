@@ -1,0 +1,16 @@
+# Khử file rác khi biên dịch C/C++
+*.o
+*.out
+
+# Khử file rác mô phỏng (Icarus Verilog, GTKWave, Vivado)
+*.vcd
+*.wdb
+*.log
+*.jou
+*.pb
+.Xil/
+vivado_pid*.str
+
+# Né các thư mục sinh ra tự động
+/build/
+/synthesis_output/
